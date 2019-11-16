@@ -448,10 +448,10 @@ th {
 }
 
 body {
-  color: #525252;
+  color: #b3b3b3;
   font-family: "Whitney SSm A", "Whitney SSm B", sans-serif;
   font-size: 16px;
-  background: #fff url("/assets/img/cloud-bar.png") repeat-x;
+  background: #262626 url("/assets/img/cloud-bar.png") repeat-x;
   padding-top: 10px;
 }
 
@@ -1254,7 +1254,7 @@ tbody.collapse.in {
 code[class*="language-"],
 pre[class*="language-"] {
   color: black;
-  text-shadow: 0 1px white;
+  /*text-shadow: 0 1px #ffffcc;*/
   font-family: "Operator Mono", "Fira Code", Consolas, Monaco, "Andale Mono", monospace;
   direction: ltr;
   text-align: left;
@@ -1304,7 +1304,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background: rgba(238, 238, 238, 0.35);
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 3px;
   padding: 10px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
@@ -1324,11 +1324,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #999;
+  color: #645a7d;
 }
 
 .token.punctuation {
-  color: #999;
+  color: #645a7d;
 }
 
 .namespace {
@@ -1355,7 +1355,7 @@ pre[class*="language-"] {
 .token.char,
 .token.builtin,
 .token.inserted {
-  color: #2E7D32;
+  color: #0322ff;
 }
 
 .token.operator,
@@ -1363,7 +1363,7 @@ pre[class*="language-"] {
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: #555;
+  color: #561c1c;
 }
 
 .token.atrule,
@@ -1373,13 +1373,13 @@ pre[class*="language-"] {
 }
 
 .token.function {
-  color: #555;
+  color: #561c1c;
 }
 
 .token.regex,
 .token.important,
 .token.variable {
-  color: #4EA1DF;
+  color: #6600cc;
 }
 
 .token.important,
@@ -1433,7 +1433,7 @@ pre.line-numbers > code {
 
 .line-numbers-rows > span:before {
   content: counter(linenumber);
-  color: #999;
+  color: #645a7d;
   display: block;
   padding-right: 0.8em;
   text-align: right;
@@ -1778,7 +1778,7 @@ pre.line-numbers > code {
 }
 
 .callout.minimal .callout-title {
-  color: #444;
+  color: #f2f2f2;
   font-weight: 300;
   font-size: 26px;
   margin: 0 0 30px;
@@ -1791,7 +1791,7 @@ pre.line-numbers > code {
 
 .callout.minimal p {
   -webkit-font-smoothing: antialiased;
-  color: #444;
+  color: #bfbfbf;
   font-size: 15px;
   line-height: 1.8;
   margin: 0;
@@ -2027,7 +2027,7 @@ footer.main > ul > li {
 footer.main > ul > li > a {
   font-family: "Miriam Libre", sans-serif;
   font-size: 16px;
-  color: #525252;
+  color: #bfbfbf;
 }
 
 footer.main > ul > li > a:hover {
@@ -2044,7 +2044,7 @@ footer.main p {
 }
 
 footer.main p a {
-  color: #525252;
+  color: #bfbfbf;
 }
 
 footer.main p a:hover {
@@ -2150,7 +2150,7 @@ nav.main ul.main-nav > li {
 }
 
 nav.main ul.main-nav > li > a {
-  color: #525252;
+  color: #bfbfbf;
   display: block;
   font-size: 15px;
   padding: 28px 10px;
@@ -2267,7 +2267,7 @@ nav.main .switcher .dropdown-menu > li:last-child {
 }
 
 nav.main .switcher .dropdown-menu > li > a {
-  color: #525252;
+  color: #bfbfbf;
   padding: 10px 20px;
   text-align: center;
 }
@@ -2416,7 +2416,7 @@ nav.main .switcher .dropdown-menu > li > a {
 }
 
 .panel.statement p.caption {
-  color: #525252;
+  color: #bfbfbf;
   font-size: 18px;
 }
 
@@ -3434,7 +3434,7 @@ nav.main .switcher .dropdown-menu > li > a {
 
 .docs article h2 a,
 .docs article h2 a:hover {
-  color: #525252;
+  color: #bfbfbf;
   text-decoration: none;
 }
 
